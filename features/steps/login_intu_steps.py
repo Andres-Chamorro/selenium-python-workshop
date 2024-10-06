@@ -13,7 +13,7 @@ def step_user_is_in_login_page(context):
 
 @when('the user logs in with valid intu credentials')
 def step_user_logs_in_valid(context):
-    context.login_intu_page.login("1114541455", "Ricardo0413")
+    context.login_intu_page.login("", "")
 
 
 @then('the user should be redirected to the dashboard page')
